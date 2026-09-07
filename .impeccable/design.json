@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-07T19:30:00+05:30",
+  "title": "Design System: PGKhata",
+  "extensions": {
+    "colorMeta": {
+      "ledger-green": { "role": "primary", "displayName": "Ledger Green", "canonical": "#154212", "tonalRamp": ["#0b2109", "#10320e", "#154212", "#2d5a27", "#56814e", "#82aa77", "#bcf0ae", "#eefbe9"] },
+      "paper": { "role": "neutral", "displayName": "Warm Paper", "canonical": "#faf9f8", "tonalRamp": ["#262524", "#454341", "#6d6a67", "#96928e", "#c1bdb9", "#e1dedb", "#f4f3f2", "#faf9f8"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Editorial Promise", "purpose": "Hero and major section headlines." },
+      "body": { "displayName": "Operational Reading", "purpose": "Navigation, product UI, explanations, and data." }
+    },
+    "shadows": [
+      { "name": "product-frame", "value": "0 40px 80px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.04)", "purpose": "Large product demonstrations only." }
+    ],
+    "motion": [
+      { "name": "workflow-reveal", "value": "600ms cubic-bezier(0.22,1,0.36,1)", "purpose": "One coordinated billing-state transition." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single dominant action on each surface.",
+      "html": "<button class=\"ds-button-primary\">START FOR FREE</button>",
+      "css": ".ds-button-primary{background:#154212;color:#fff;border:0;border-radius:999px;padding:14px 32px;font:600 14px Geist,system-ui,sans-serif;transition:background-color .2s}.ds-button-primary:hover{background:#2d5a27}.ds-button-primary:focus-visible{outline:2px solid #2d5a27;outline-offset:3px}"
+    },
+    {
+      "name": "Collection Row",
+      "kind": "custom",
+      "description": "Operational proof showing tenant, bill, delivery, and payment state.",
+      "html": "<div class=\"ds-row\"><strong>Rahul Sharma</strong><span>Room 204</span><span>₹8,440</span><em>PAID</em></div>",
+      "css": ".ds-row{display:grid;grid-template-columns:1.4fr 1fr .8fr .7fr;gap:16px;align-items:center;padding:14px 16px;border-bottom:1px solid rgba(24,24,27,.08);background:#fff;color:#1a1c1c;font:400 14px Geist,system-ui,sans-serif}.ds-row span{color:#72796e}.ds-row em{justify-self:end;border-radius:999px;background:#dcfce7;color:#16a34a;padding:3px 9px;font-style:normal;font-size:11px;font-weight:600}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The First-of-Month Ledger",
+    "overview": "A calm, legible operating record that replaces scattered reminders and crossed-out totals. Warm paper space and decisive ledger green frame compact product proof.",
+    "keyCharacteristics": ["Warm paper and ledger green", "Editorial promise with operational detail", "Ruled rows instead of card grids", "One authored workflow moment"],
+    "rules": [
+      { "name": "Ledger Green", "body": "Use green for primary action, active state, and positive financial status.", "section": "colors" },
+      { "name": "Proof Gets Depth", "body": "Reserve elevation for live product demonstrations and navigation.", "section": "elevation" }
+    ],
+    "dos": ["Prove the billing loop with believable product UI.", "Use Indian currency, names, rooms, and WhatsApp language."],
+    "donts": ["Imply automated payment reconciliation is complete.", "Replace proof with generic feature-card grids."]
+  }
+}
