@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#faf9f8"/>
+  
+  <!-- Logo circle -->
+  <circle cx="440" cy="250" r="60" fill="#154212"/>
+  <text x="412" y="272" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#faf9f8">PG</text>
+  <line x1="395" y1="290" x2="485" y2="290" stroke="#faf9f8" stroke-width="2"/>
+  
+  <!-- Brand name -->
+  <text x="530" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#154212" letter-spacing="-1">PGKhata</text>
+  
+  <!-- Tagline -->
+  <text x="530" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#4a6b4a">Rent Collection Without the Chaos</text>
+  
+  <!-- Workflow steps -->
+  <circle cx="200" cy="440" r="8" fill="#154212"/>
+  <text x="220" y="446" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#1a1c1c">Manage Tenants</text>
+  
+  <circle cx="430" cy="440" r="8" fill="#154212"/>
+  <text x="450" y="446" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#1a1c1c">Generate Bills</text>
+  
+  <circle cx="650" cy="440" r="8" fill="#154212"/>
+  <text x="670" y="446" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#1a1c1c">Send via WhatsApp</text>
+  
+  <circle cx="900" cy="440" r="8" fill="#154212"/>
+  <text x="920" y="446" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#1a1c1c">Track Payments</text>
+  
+  <!-- Connecting line -->
+  <line x1="208" y1="440" x2="422" y2="440" stroke="#154212" stroke-width="2"/>
+  <line x1="438" y1="440" x2="642" y2="440" stroke="#154212" stroke-width="2"/>
+  <line x1="658" y1="440" x2="892" y2="440" stroke="#154212" stroke-width="2"/>
+</svg>
