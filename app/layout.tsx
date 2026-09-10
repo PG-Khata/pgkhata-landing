@@ -49,7 +49,7 @@ export const metadata: Metadata = {
       "Free PG management software for Indian PG owners. Manage tenants, billing, payments and properties.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og",
         width: 1200,
         height: 630,
         alt: "PGKhata - Rent Collection Without the Chaos",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     title: "PGKhata | Rent Collection Without the Chaos",
     description:
       "Free PG management software for Indian PG owners. Manage tenants, billing, payments and properties.",
-    images: ["/og-image.png"],
+    images: ["/og"],
   },
   robots: {
     index: true,
