@@ -12,9 +12,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/features",
     "/how-it-works",
     "/pricing",
+    "/privacy",
     "/product",
     "/resources",
     "/security",
+    "/account-deletion",
   ];
 
   return pages.map((path) => ({

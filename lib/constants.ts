@@ -55,6 +55,8 @@ export const FOOTER_LINKS: FooterColumn[] = [
     links: [
       { label: "About", href: "/about" },
       { label: "Contact", href: "/contact" },
+      { label: "Privacy", href: "/privacy" },
+      { label: "Delete account", href: "/account-deletion" },
     ],
   },
 ];
