@@ -33,6 +33,7 @@ export default function PrivacyPage() {
               <p>We collect information needed to provide PGKhata, including:</p>
               <ul className="mt-3 list-disc space-y-2 pl-5">
                 <li>Account details, such as your name, email address, phone number, and sign-in credentials.</li>
+                <li>If you choose &quot;Continue with Google&quot;, we receive only your name, email address, and profile photo from Google to create and sign in to your account. We do not receive your Google password.</li>
                 <li>Property, room, tenant, booking, complaint, billing, payment, deposit, and expense records you enter.</li>
                 <li>Documents and images you choose to upload for property or tenant management.</li>
                 <li>Device and app identifiers used to deliver push notifications, including Firebase Cloud Messaging tokens.</li>
